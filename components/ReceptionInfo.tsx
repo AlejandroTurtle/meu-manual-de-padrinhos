@@ -26,7 +26,6 @@ export default function ReceptionInfo() {
           <video
             src="/videos/pista.mp4"
             controls
-            poster="/images/espaco-evento1.png"
             className="w-full h-full object-cover"
             playsInline
           />
