@@ -22,6 +22,15 @@ export default function ReceptionInfo() {
             style={{ backgroundColor: "#334870" }}
           ></div>
         </div>
+        <div className="relative h-64 md:h-80 rounded-lg overflow-hidden shadow-xl mb-5">
+          <video
+            src="/videos/pista.mp4"
+            controls
+            poster="/images/espaco-evento1.png"
+            className="w-full h-full object-cover"
+            playsInline
+          />
+        </div>
 
         {/* Photo Gallery */}
         <div className="mb-16">
@@ -76,8 +85,6 @@ export default function ReceptionInfo() {
             className="rounded-2xl shadow-xl border border-white/50 overflow-hidden"
             style={{ backgroundColor: "#fdf2f8" }}
           >
-            R. Ten. Anastácio de Moura, de - 201 - Santa Efigênia, Belo
-            Horizonte - MG, 30240-390
             <div className="p-6">
               <div className="flex items-center mb-4">
                 <div className="p-3 rounded-full bg-white shadow-md">
