@@ -12,7 +12,7 @@ export default function Hero() {
       {/* Background Image - Only for Mobile */}
       <div className="absolute inset-0 lg:hidden">
         <Image
-          src="/images/igreja-art.png"
+          src="/images/Igreja-art.png"
           alt="Igreja em arte - local da cerimônia"
           fill
           className="object-cover object-center opacity-60"
@@ -195,7 +195,7 @@ export default function Hero() {
               <div className="relative w-full max-w-xl">
                 <div className="relative">
                   <Image
-                    src="/images/igreja-art.png"
+                    src="/images/Igreja-art.png"
                     alt="Igreja em arte - local da cerimônia"
                     width={800}
                     height={1000}
