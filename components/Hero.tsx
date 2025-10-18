@@ -169,7 +169,7 @@ export default function Hero() {
                 </p>
                 <div className="space-y-1">
                   <p className="font-display text-2xl font-light text-gray-700 tracking-wide">
-                    26
+                    08
                   </p>
                   <p className="text-sm text-gray-600 uppercase tracking-widest font-light">
                     Agosto
