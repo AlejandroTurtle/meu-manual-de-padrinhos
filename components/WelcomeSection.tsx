@@ -12,7 +12,7 @@ export default function WelcomeSection() {
           {/* Text Content */}
           <div className="space-y-6">
             <h2
-              className="font-display text-xl md:text-xl text-gray-800"
+              className="font-cursive text-xl md:text-xl text-gray-800"
               style={{ fontSize: "56px" }}
             >
               Queridos Padrinhos,

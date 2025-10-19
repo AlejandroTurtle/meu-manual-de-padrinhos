@@ -77,17 +77,13 @@ export default function ChurchInfo() {
                   className="font-display text-3xl font-bold"
                   style={{ color: "#334870" }}
                 >
-                  20:00
+                  20:30
                 </p>
                 <p className="font-body text-gray-600 mt-2">
                   Início da Cerimônia
                 </p>
                 <div className="mt-4 p-3 bg-white rounded-lg">
                   <p className="font-body text-sm text-gray-700">
-                    <strong>Chegada dos convidados:</strong> 18:30
-                    <br />
-                    <strong>Início da cerimônia:</strong> 20:00
-                    <br />
                     <br />
                     <strong>Padrinhos:</strong> Horário será definido e avisado
                     com antecedência pelo cerimonial.

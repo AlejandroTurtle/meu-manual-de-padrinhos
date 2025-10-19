@@ -24,17 +24,20 @@ Um site elegante e responsivo criado para o manual dos padrinhos de casamento, d
 ## 📦 Instalação
 
 1. Clone o repositório:
+
 ```bash
 git clone <url-do-repositorio>
 cd manual-dos-padrinhos-casamento
 ```
 
 2. Instale as dependências:
+
 ```bash
 npm install
 ```
 
 3. Execute o projeto em modo de desenvolvimento:
+
 ```bash
 npm run dev
 ```
@@ -44,54 +47,56 @@ npm run dev
 ## 🎨 Seções do Site
 
 ### 1. Hero Section
+
 - Título principal com data do casamento
 - Background elegante com efeito de parallax
 - Indicador de scroll animado
 
 ### 2. Boas-vindas
+
 - Mensagem personalizada aos padrinhos
 - Layout responsivo com imagem e texto
 
 ### 3. Informações da Igreja
+
 - Detalhes completos da cerimônia
 - Endereço, horário e contatos
 - Mapa visual e instruções
 
 ### 4. Dress Code
+
 - Paleta de cores personalizada
 - Orientações para madrinhas e padrinhos
 - Imagens de referência
 
 ### 5. Cronograma
+
 - Timeline visual dos eventos do dia
 - Horários detalhados de cada momento
 - Ícones temáticos para cada evento
 
 ### 6. Galeria de Fotos
+
 - História do casal
 - Layout em grid responsivo
 - Hashtag oficial para redes sociais
 
 ### 7. Informações Importantes
+
 - Contatos de emergência
 - Detalhes sobre estacionamento, Wi-Fi, etc.
 - Lista de presentes
 
 ### 8. Footer
+
 - Resumo das informações principais
 - Hashtag oficial
 - Mensagem final
 
-## 🎨 Paleta de Cores
-
-- **Rosa**: Cor principal (#e11d48)
-- **Dourado**: Detalhes e acentos (#f59e0b)
-- **Verde Sage**: Alternativa elegante
-- **Nude/Bege**: Tons neutros
-
 ## 📱 Responsividade
 
 O site foi desenvolvido com abordagem mobile-first, garantindo uma experiência perfeita em:
+
 - 📱 Smartphones (320px+)
 - 📟 Tablets (768px+)
 - 💻 Desktop (1024px+)
@@ -118,7 +123,3 @@ Para personalizar o conteúdo:
 ## 📞 Contato
 
 Para dúvidas sobre o projeto, entre em contato com os desenvolvedores.
-
----
-
-💕 Feito com amor para Beatriz & Lucas 

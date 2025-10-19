@@ -10,24 +10,17 @@ export default function DressCode() {
   ];
 
   const correctImages = [
-    { src: "/images/tom_correto4.jpeg", alt: "Tom correto 4" },
-    { src: "/images/tom_certo3.webp", alt: "Tom correto 3" },
-    { src: "/images/tom_certo2.jpg", alt: "Tom correto 2" },
-    { src: "/images/tom_certo1.jpg", alt: "Tom correto 1" },
-  ];
-
-  const wrongImages = [
-    { src: "/images/tons_errados_3.jpg", alt: "Tom incorreto 3" },
-    { src: "/images/tom_errado2.jpeg", alt: "Tom incorreto 2" },
-    { src: "/images/tom_errado.jpeg", alt: "Tom incorreto 1" },
-    { src: "/images/tons_errados_4.jpg", alt: "Tom incorreto 4" },
+    { src: "/images/vestido-madrinha1.jpg", alt: "Exemplo1" },
+    { src: "/images/vestido-madrinha2.jpg", alt: "Exemplo2" },
+    { src: "/images/vestido-madrinha3.jpg", alt: "Exemplo3" },
+    { src: "/images/vestido-madrinha4.jpg", alt: "Exemplo4" },
   ];
 
   const groomsImages = [
-    { src: "/images/padrinhos4.jpeg", alt: "Look padrinho 4" },
-    { src: "/images/padrinhos1.jpeg", alt: "Look padrinho 1" },
-    { src: "/images/padrinhos3.jpeg", alt: "Look padrinho 3" },
-    { src: "/images/padrinhos2.jpeg", alt: "Look padrinho 2" },
+    { src: "/images/terno-padrinho1.webp", alt: "Look padrinho 1" },
+    { src: "/images/terno-padrinho2.webp", alt: "Look padrinho 2" },
+    { src: "/images/terno-padrinho3.webp", alt: "Look padrinho 3" },
+    { src: "/images/terno-padrinho4.webp", alt: "Look padrinho 4" },
   ];
 
   return (
@@ -55,12 +48,13 @@ export default function DressCode() {
         <div className="max-w-4xl mx-auto mb-16">
           <div className="text-center">
             <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-white/50">
-              <p className="font-body text-lg text-gray-700 leading-relaxed">
-                Vocês me conhecem bem e sabem que não poderia ser outra cor! 💕
-                Ver vocês vestidas com a minha cor preferida, no dia mais
-                especial da minha vida, vai ser um presente enorme. Tenho
-                certeza de que cada uma ficará maravilhosa e que juntas vamos
-                formar um cenário inesquecível!
+              <p className="font-body text-lg text-gray-600">
+                Escolhemos o azul como cor do nosso casamento porque ela
+                representa tranquilidade, harmonia e confiança ,exatamente os
+                sentimentos que queremos celebrar neste dia tão especial.
+                Queremos que cada detalhe reflita a serenidade e a profundidade
+                do nosso amor, e que vocês, nossas madrinhas queridas, estejam
+                junto conosco nesse clima azul 💙
               </p>
             </div>
           </div>
@@ -75,15 +69,14 @@ export default function DressCode() {
             </h3>
           </div>
 
-          <div className="flex justify-center gap-8 mb-8">
-            {colorPalette.map((color, index) => (
-              <div key={index} className="text-center">
-                <div
-                  className="w-24 h-24 rounded-full shadow-lg border-4 border-white"
-                  style={{ backgroundColor: color.color }}
-                ></div>
-              </div>
-            ))}
+          <div
+            className="p-6 rounded-lg border-l-4"
+            style={{ backgroundColor: "#fdf2f8", borderLeftColor: "#334870" }}
+          >
+            <p className="font-body" style={{ color: "#334870" }}>
+              Não estipulamos um tom específico, queremos que você escolha o
+              azul que fique melhor em você!
+            </p>
           </div>
         </div>
 
@@ -91,12 +84,8 @@ export default function DressCode() {
         <div className="mb-16">
           <div className="text-center mb-8">
             <h3 className="font-display text-3xl font-semibold text-gray-800 mb-4">
-              <span style={{ color: "#334870" }}>✓</span> Tons Certos
+              Exemplos de Tons
             </h3>
-            <p className="font-body text-lg text-gray-600">
-              Estes são os tons ideais que combinam perfeitamente com nossa
-              paleta!
-            </p>
           </div>
 
           {/* Desktop Grid */}
@@ -143,92 +132,6 @@ export default function DressCode() {
             </div>
             <p className="text-center text-sm text-gray-500 mt-2">
               👆 Deslize para ver mais imagens
-            </p>
-          </div>
-        </div>
-
-        {/* Tons Incorretos */}
-        <div className="mb-16">
-          <div className="text-center mb-8">
-            <h3 className="font-display text-3xl font-semibold text-gray-800 mb-4">
-              <span style={{ color: "#334870" }}>✗</span> Tons Errados
-            </h3>
-            <p className="font-body text-lg text-gray-600">
-              Evitem tons muito escuros que fujam dessa vibe Barbie pink que
-              amo! Também peço cuidado com rosas muito claros. Ah, e por favor:
-              nada de lilás, roxo ou vermelho! 💗
-            </p>
-          </div>
-
-          {/* Desktop Grid */}
-          <div className="hidden md:grid grid-cols-4 gap-6 max-w-5xl mx-auto">
-            {wrongImages.map((image, index) => (
-              <div key={index} className="relative group">
-                <div className="relative h-80 rounded-lg overflow-hidden shadow-lg">
-                  <Image
-                    src={image.src}
-                    alt={image.alt}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {/* Mobile Horizontal Scroll */}
-          <div className="md:hidden">
-            <div
-              className="flex gap-4 overflow-x-scroll pb-4 px-4 scrollbar-hide"
-              style={{ overflowX: "scroll" }}
-            >
-              {wrongImages.map((image, index) => (
-                <div
-                  key={index}
-                  className="flex-shrink-0"
-                  style={{ width: "280px", minWidth: "280px" }}
-                >
-                  <div
-                    className="relative rounded-lg overflow-hidden shadow-lg"
-                    style={{ height: "380px" }}
-                  >
-                    <Image
-                      src={image.src}
-                      alt={image.alt}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                </div>
-              ))}
-            </div>
-            <p className="text-center text-sm text-gray-500 mt-2">
-              👆 Deslize para ver mais imagens
-            </p>
-          </div>
-        </div>
-
-        {/* Dicas */}
-        <div
-          className="mt-16 p-8 rounded-lg border-l-4"
-          style={{ backgroundColor: "#fdf2f8", borderLeftColor: "#334870" }}
-        >
-          <div className="text-center">
-            <h4
-              className="font-display text-2xl font-semibold mb-4"
-              style={{ color: "#334870" }}
-            >
-              Atenção
-            </h4>
-            <p
-              className="font-body text-lg leading-relaxed max-w-4xl mx-auto"
-              style={{ color: "#334870" }}
-            >
-              Madrinhas, se atentem porque a cerimônia vai acontecer na igreja,
-              então cuidado com decotes e fendas muito grandes! Além disso, a
-              festa é em um lugar super verde e ao ar livre, vestidos pesados e
-              com muitas pedrarias podem não combinar tanto! Fora isso, fiquem à
-              vontade para escolher o estilo do seu vestido! 💕
             </p>
           </div>
         </div>
@@ -337,22 +240,18 @@ export default function DressCode() {
                   style={{ color: "#334870" }}
                 >
                   <p>
-                    <strong>Terno:</strong> Preto
+                    <strong>Terno:</strong> Azul Marinho
                   </p>
                   <p>
                     <strong>Camisa:</strong> Branca
                   </p>
                   <p>
+                    <strong>Gravata:</strong> Vinho
+                  </p>
+                  <p>
                     <strong>Sapatos:</strong> Tênis ou sapatênis
                   </p>
                 </div>
-                <p
-                  className="font-body mt-6 text-lg leading-relaxed"
-                  style={{ color: "#334870" }}
-                >
-                  Não usaremos gravata, no dia entregaremos para vocês uma
-                  lapela da cor do vestido das madrinhas! 💕
-                </p>
               </div>
             </div>
           </div>
