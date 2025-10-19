@@ -255,6 +255,18 @@ export default function DressCode() {
               </div>
             </div>
           </div>
+
+          <div className="max-w-4xl mx-auto mb-16">
+            <div className="text-center mt-20">
+              <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-white/50">
+                <p className="font-body text-lg text-gray-700 leading-relaxed">
+                  Parece que ainda falta tempo, mas ele passa rápido! Queremos
+                  que vocês escolham a roupa que mais gostarem e curtam cada
+                  momento do nosso dia.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
