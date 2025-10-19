@@ -246,7 +246,7 @@ export default function DressCode() {
                     <strong>Camisa:</strong> Branca
                   </p>
                   <p>
-                    <strong>Gravata:</strong> Vinho
+                    <strong>Gravata:</strong> Preta ou Azul
                   </p>
                   <p>
                     <strong>Sapatos:</strong> Tênis ou sapatênis
